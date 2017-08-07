@@ -16,7 +16,7 @@ pip install pillow
 ```
 
 ## Use
-The script reads input images from a provided directory (and any subdirectories) and saves the modified images into another directory (while maintaining the internal structure of the input directory). The script accepts the following arguments:
+The `receipt_cropping.py` script reads input images from a provided directory (and any subdirectories) and saves the modified images into another directory (while maintaining the internal structure of the input directory). The script accepts the following arguments:
 
 * `--source` **(required)**: Source directory containing receipt images to process
 * `--destination` *(optional)*: Destination directory where processed images are to be saved. If not provided, the destination directory will default to *source*_output.
